@@ -4,6 +4,7 @@
 
 :root {
     --h3color: #0B0223;
+    --descolor: #534C64;
 }
 
 body {
@@ -76,10 +77,81 @@ nav li a {
     color: var(--h3color);
 }
 
+/* Banner Section */
+
+.banner-content h3 {
+    color: var(--h3color);
+    font-size: 3rem;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.banner-content h1 {
+    font-size: 5.9rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-content p {
+    color: var(--descolor);
+    font-size: 1.25rem;
+    font-weight: 500;
+    
+}
+
+.btn-red {
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-blue{
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    padding: 21px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.banner-container{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    background-image: url('/images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 /* Responsive for Mobile Device */
 @media screen and (max-width: 576px) {
 
-    nav{
+    nav {
         width: auto;
         height: auto;
         display: block;
@@ -87,21 +159,24 @@ nav li a {
         margin: 0 auto;
     }
 
-    .logo{
+    .logo {
         margin-bottom: -40px;
         display: flex;
         justify-content: center;
         margin-left: 0;
     }
-    .logo-menu{
+
+    .logo-menu {
         display: block;
         margin-right: 0;
     }
-    .logo-menu ul{
+
+    .logo-menu ul {
         display: block;
         margin-bottom: 30px;
     }
-    .logo-menu div{
+
+    .logo-menu div {
         margin: 0 auto;
     }
 
@@ -109,11 +184,12 @@ nav li a {
 
 /* Responsive for Tablet */
 @media screen and (min-width: 576px) and (max-width:992px) {
-    
-    .logo-menu{
+
+    .logo-menu {
         display: block;
     }
-    .logo-menu div{
+
+    .logo-menu div {
         padding-left: 45px;
     }
 }
