@@ -181,25 +181,25 @@ nav li a {
     width: 342px;
     height: 400px;
     border-radius: 16px;
-    background-image: url("/images/Rectangle4.png");
+    background-image: url("../images/Rectangle4.png");
 }
 .box2 {
     width: 342px;
     height: 400px;
     border-radius: 16px;
-    background-image: url("/images/Rectangle5.png");
+    background-image: url("../images/Rectangle5.png");
 }
 .box3 {
     width: 342px;
     height: 400px;
     border-radius: 16px;
-    background-image: url("/images/Rectangle7.png");
+    background-image: url("../images/Rectangle7.png");
 }
 .box4 {
     width: 342px;
     height: 400px;
     border-radius: 16px;
-    background-image: url("/images/Rectangle6.png");
+    background-image: url("../images/Rectangle6.png");
 }
 .box-hover p{
     font-size: 1.25rem;
