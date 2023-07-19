@@ -208,8 +208,7 @@ nav li a {
 }
 .box-hover {
     display: none;
-    width: 70px;
-    height: 70px;
+
     padding: 40%;
     position: relative;
    
@@ -218,7 +217,27 @@ nav li a {
   .box3:hover .box-hover {
     display: block;
     background-color: #08060c6b;
-    width: 70px;
+    height: 125px;
+    border-radius: 16px;
+
+  }
+  .box1:hover .box-hover {
+    display: block;
+    background-color: #08060c6b;
+    height: 125px;
+    border-radius: 16px;
+
+  }
+  .box2:hover .box-hover {
+    display: block;
+    background-color: #08060c6b;
+    height: 125px;
+    border-radius: 16px;
+
+  }
+  .box4:hover .box-hover {
+    display: block;
+    background-color: #08060c6b;
     height: 125px;
     border-radius: 16px;
 
@@ -233,6 +252,102 @@ nav li a {
     width: 300px;
     margin: 0 auto;
 }
+
+/* Play Instantly Section */
+
+.play-instantly{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    background: #FFF;
+}
+.play-instantly-text{
+    width: 50%;
+
+}
+.play-instantly-img{
+    width: 50%;
+}
+
+.play-instantly-text h3{
+    width: 350px;
+    color: var(--h3color);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.play-instantly-text p{
+    width: 350px;
+    text-align: right;
+}
+.play-instantly-text p{
+color: var(--descolor);
+font-size: 1.125rem;
+}
+.img1{
+    width: 600px;
+    height: 650px;
+    border-radius: 8px;
+}
+.img2{
+    width: 319px;
+    height: 365px;
+    border-radius: 8px;
+    transform: translate(-150px, -300px);
+}
+.play-instantly-img img{
+    width: 100%;
+    height: 100%;
+}
+/* Button styles */
+.button-container {
+   
+    /* margin-top: 120px; */
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 60px;
+  }
+  
+  .button {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: var(--h3color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #FFF;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .button:hover {
+    border: 1px solid #F948B2;
+    border-radius: 30px;
+    color: #F948B2;
+  }
+  
+  .button img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .button p {
+    margin: 10px 0;
+    text-align: center;
+  }
+
 
 
 /* Responsive for Mobile Device */
