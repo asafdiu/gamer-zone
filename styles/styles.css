@@ -215,6 +215,7 @@ nav li a {
   }
   
   .box3:hover .box-hover {
+    border: 3px solid #F948B2;
     display: block;
     background-color: #08060c6b;
     height: 125px;
@@ -222,6 +223,7 @@ nav li a {
 
   }
   .box1:hover .box-hover {
+    border: 3px solid #F948B2;
     display: block;
     background-color: #08060c6b;
     height: 125px;
@@ -229,6 +231,7 @@ nav li a {
 
   }
   .box2:hover .box-hover {
+    border: 3px solid #F948B2;
     display: block;
     background-color: #08060c6b;
     height: 125px;
@@ -236,6 +239,7 @@ nav li a {
 
   }
   .box4:hover .box-hover {
+    border: 3px solid #F948B2;
     display: block;
     background-color: #08060c6b;
     height: 125px;
@@ -348,6 +352,66 @@ font-size: 1.125rem;
     text-align: center;
   }
 
+  /* Footer */
+  footer{
+    background: #0B0223;
+  }
+  footer div{
+   text-align: center;
+  }
+  .logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-footer img {
+    width: 80px;
+    height: 40px;
+}
+
+.logo-footer h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+}
+  .footer-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+  }
+  .footer-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+
+  .footer-btn{
+    margin-top: 60px;
+    
+  }
+  .footer-btn > button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .footer-btn button>img{
+    width: 100%;
+    height: 100%;
+  }
+.footer-terms a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.footer-terms ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
 
 /* Responsive for Mobile Device */
