@@ -138,7 +138,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     height: 550px;
-    background-image: url('/images/Group\ 14.png');
+    background-image: url('Group\ 14.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
